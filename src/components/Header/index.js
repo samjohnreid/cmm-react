@@ -1,5 +1,5 @@
 const Header = () => {
-  const NavLinks = () => {
+  const MastheadLinks = () => {
     const mastheadLinks = [
       {
         pagePath: 'home',
@@ -61,7 +61,7 @@ const Header = () => {
 
       <nav className="masthead__nav">
         <ul className="masthead__nav-list">
-          <NavLinks />
+          <MastheadLinks />
         </ul>
       </nav>
 
